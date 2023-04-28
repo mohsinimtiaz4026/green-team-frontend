@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Unbounded;
+  src: url('../assets/fonts/Unbounded-Regular.ttf');
+}
+* {
+  font-family: Unbounded;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+div,span,p{
+  font-family: Unbounded;
+}
+
+html,
+body {
+  font-family: Unbounded;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.MuiAppBar-root .css-z0pga-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: #3e7844;
+  color: white;
+}
