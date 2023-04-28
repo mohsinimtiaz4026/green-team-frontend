@@ -1,4 +1,3 @@
-
 import logo from '@/public/images/logo.svg';
 import { Box, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
@@ -15,67 +14,101 @@ const Footer = () => {
       }}
     >
       <Grid container paddingX={'3%'} paddingY={'3%'}>
-        <Grid item lg={4} >
+        <Grid item lg={4}>
           <Box sx={{ marginBottom: '2%' }}>
-            <Image src={logo} alt='logo' style={{
-              width: "50%",
-              height: "auto"
-            }}/>
+            <Image
+              src={logo}
+              alt="logo"
+              style={{
+                width: '50%',
+                height: 'auto',
+              }}
+            />
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>+31 854019345</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              +31 854019345
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Rivium Boulevard 2</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Rivium Boulevard 2
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>2909 LK, Capelle aan den Ijssel</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              2909 LK, Capelle aan den Ijssel
+            </Typography>
           </Box>
         </Grid>
         <Grid item lg={4}>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Home</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Home
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Over ons</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Over ons
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Diensten</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Diensten
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Zakelijk</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Zakelijk
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>FAQ</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              FAQ
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Contact</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Contact
+            </Typography>
           </Box>
         </Grid>
         <Grid item lg={4}>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Schuren</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Schuren
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Oliën</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Oliën
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Lakken</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Lakken
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Hardwax</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Hardwax
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Parket reparatie</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Parket reparatie
+            </Typography>
           </Box>
           <Box sx={{ marginBottom: '2%' }}>
-            <Typography color={'#fff'} variant='h5' fontFamily={'Unbounded'}>Reinigen</Typography>
+            <Typography color={'#fff'} variant="h5" fontFamily={'Unbounded'}>
+              Reinigen
+            </Typography>
           </Box>
         </Grid>
       </Grid>
       <Box
         sx={{
-          color:'#fff',
+          color: '#fff',
           height: '40px',
           backgroundColor: '#3e7844',
           paddingX: 2,

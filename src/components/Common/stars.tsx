@@ -14,7 +14,7 @@ const Stars = (props) => {
         }}
       >
         {' '}
-        <FaStar color={props.filled ? "#fff" : "#3e7844"} />
+        <FaStar color={props.filled ? '#fff' : '#3e7844'} />
       </Box>
       &nbsp;
     </>

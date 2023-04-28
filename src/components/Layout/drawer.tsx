@@ -33,7 +33,7 @@ const DrawerComp = () => {
         sx={{ color: 'white', marginLeft: 'auto' }}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
-        <MenuIcon color='primary' />
+        <MenuIcon color="primary" />
         {/* <MenuIcon color="white" /> */}
       </IconButton>
     </React.Fragment>

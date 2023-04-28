@@ -365,11 +365,13 @@ export default function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Box  sx={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-            }}>
+            }}
+          >
             <Image src={Olien} width="330" height="auto" />
             <Box
               sx={{
@@ -392,11 +394,13 @@ export default function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Box  sx={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-            }}>
+            }}
+          >
             <Image src={Olien} width="330" height="auto" />
             <Box
               sx={{
@@ -419,11 +423,13 @@ export default function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Box  sx={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-            }}>
+            }}
+          >
             <Image src={Olien} width="330" height="auto" />
             <Box
               sx={{
@@ -446,11 +452,13 @@ export default function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Box  sx={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-            }}>
+            }}
+          >
             <Image src={Olien} width="330" height="auto" />
             <Box
               sx={{
@@ -473,11 +481,13 @@ export default function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Box  sx={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-            }}>
+            }}
+          >
             <Image src={Olien} width="330" height="auto" />
             <Box
               sx={{

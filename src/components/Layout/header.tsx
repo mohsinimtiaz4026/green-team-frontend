@@ -8,7 +8,7 @@ import {
   Toolbar,
   Typography,
   useMediaQuery,
-  useTheme
+  useTheme,
 } from '@mui/material';
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -57,8 +57,15 @@ const Header = () => {
             Klantenservice
           </Typography>
         </Box>
-        <Toolbar sx={{ paddingY: '1%', paddingX: '2%', display: 'flex', justifyContent: 'space-between' }}>
-          <Image src={logo} height={80} alt='logo' />
+        <Toolbar
+          sx={{
+            paddingY: '1%',
+            paddingX: '2%',
+            display: 'flex',
+            justifyContent: 'space-between',
+          }}
+        >
+          <Image src={logo} height={80} alt="logo" />
           {isMatch ? (
             <>
               <DrawerComp />
@@ -66,12 +73,66 @@ const Header = () => {
           ) : (
             <>
               <List sx={{ display: 'flex' }}>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>Home</ListItem>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>Over ons</ListItem>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>Diensten</ListItem>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>Zakelijk</ListItem>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>FAQ</ListItem>
-                <ListItem sx={{ width: 'auto', color: 'black', fontFamily: 'Unbounded',fontSize:'18px' }}>Contact</ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  Home
+                </ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  Over ons
+                </ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  Diensten
+                </ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  Zakelijk
+                </ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  FAQ
+                </ListItem>
+                <ListItem
+                  sx={{
+                    width: 'auto',
+                    color: 'black',
+                    fontFamily: 'Unbounded',
+                    fontSize: '18px',
+                  }}
+                >
+                  Contact
+                </ListItem>
               </List>
               {/* <Tabs
                 sx={{ marginLeft: 'auto', color: '#000' }}  
@@ -83,7 +144,16 @@ const Header = () => {
                 <Tab label="About Us" />
                 <Tab label="Contact" />
               </Tabs> */}
-                <Button sx={{ padding: '0.3% 1%', background:'#3e7844',borderRadius:'50px',color:'#fff'}}>Offerte aanvragen</Button>
+              <Button
+                sx={{
+                  padding: '0.3% 1%',
+                  background: '#3e7844',
+                  borderRadius: '50px',
+                  color: '#fff',
+                }}
+              >
+                Offerte aanvragen
+              </Button>
             </>
           )}
         </Toolbar>
